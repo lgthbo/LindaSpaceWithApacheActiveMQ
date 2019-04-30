@@ -1,0 +1,1151 @@
+2019-04-26 04:01:38,185 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Fri Apr 26 04:01:38 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-04-26 04:01:39,973 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-04-26 04:01:40,115 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-04-26 04:01:40,272 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-39215-1556251300128-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-04-26 04:01:40,314 | INFO  | Listening for connections at: tcp://master:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-26 04:01:40,317 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-04-26 04:01:40,327 | INFO  | Listening for connections at: amqp://master:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-26 04:01:40,333 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-04-26 04:01:40,341 | INFO  | Listening for connections at: stomp://master:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-26 04:01:40,345 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-04-26 04:01:40,351 | INFO  | Listening for connections at: mqtt://master:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-26 04:01:40,354 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-04-26 04:01:40,365 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-04-26 04:01:40,418 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-04-26 04:01:40,568 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@736ac09a{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-04-26 04:01:40,648 | INFO  | Listening for connections at ws://master:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-04-26 04:01:40,649 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-04-26 04:01:40,653 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-39215-1556251300128-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-04-26 04:01:40,654 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-04-26 04:01:40,655 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb only has 4800 mb of usable space. - resetting to maximum available disk space: 4800 mb | org.apache.activemq.broker.BrokerService | main
+2019-04-26 04:01:40,656 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data only has 4800 mb of usable space. - resetting to maximum available disk space: 4800 mb | org.apache.activemq.broker.BrokerService | main
+2019-04-26 04:01:41,779 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2019-04-26 04:01:42,074 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-04-26 04:01:42,075 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-04-26 04:01:42,156 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2019-04-26 04:01:42,475 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2019-04-26 04:01:42,654 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2019-04-26 04:22:00,802 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-39215-1556251300128-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,804 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,805 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,806 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,808 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,825 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,828 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,830 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,830 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,832 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,882 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-39215-1556251300128-0:1) uptime 20 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,882 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-39215-1556251300128-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,883 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Fri Apr 26 04:01:38 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2019-04-26 04:22:00,898 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2019-04-27 18:03:37,999 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Sat Apr 27 18:03:37 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-04-27 18:03:39,886 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-04-27 18:03:39,975 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-04-27 18:03:40,014 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-04-27 18:03:40,170 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38291-1556388220026-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-04-27 18:03:40,211 | INFO  | Listening for connections at: tcp://master:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-27 18:03:40,213 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-04-27 18:03:40,223 | INFO  | Listening for connections at: amqp://master:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-27 18:03:40,225 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-04-27 18:03:40,233 | INFO  | Listening for connections at: stomp://master:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-27 18:03:40,235 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-04-27 18:03:40,243 | INFO  | Listening for connections at: mqtt://master:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-27 18:03:40,247 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-04-27 18:03:40,255 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-04-27 18:03:40,312 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-04-27 18:03:40,459 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@a10c1b5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-04-27 18:03:40,543 | INFO  | Listening for connections at ws://master:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-04-27 18:03:40,546 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-04-27 18:03:40,552 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38291-1556388220026-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-04-27 18:03:40,552 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-04-27 18:03:40,553 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb only has 4803 mb of usable space. - resetting to maximum available disk space: 4803 mb | org.apache.activemq.broker.BrokerService | main
+2019-04-27 18:03:40,556 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data only has 4803 mb of usable space. - resetting to maximum available disk space: 4803 mb | org.apache.activemq.broker.BrokerService | main
+2019-04-27 18:03:41,729 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2019-04-27 18:03:42,021 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-04-27 18:03:42,022 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-04-27 18:03:42,092 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2019-04-27 18:03:42,412 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2019-04-27 18:03:42,591 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2019-04-27 18:29:49,019 | INFO  | Connecting to URL: failover://tcp://localhost:61616 as user: null | org.apache.activemq.console.command.ProducerCommand | main
+2019-04-27 18:29:49,020 | INFO  | Producing messages to queue://TEST | org.apache.activemq.console.command.ProducerCommand | main
+2019-04-27 18:29:49,020 | INFO  | Using persistent messages | org.apache.activemq.console.command.ProducerCommand | main
+2019-04-27 18:29:49,020 | INFO  | Sleeping between sends 0 ms | org.apache.activemq.console.command.ProducerCommand | main
+2019-04-27 18:29:49,020 | INFO  | Running 1 parallel threads | org.apache.activemq.console.command.ProducerCommand | main
+2019-04-27 18:29:49,349 | INFO  | Successfully connected to tcp://localhost:61616 | org.apache.activemq.transport.failover.FailoverTransport | ActiveMQ Task-1
+2019-04-27 18:29:49,528 | INFO  | producer-1 Started to calculate elapsed time ...
+ | org.apache.activemq.util.ProducerThread | producer-1
+2019-04-27 18:29:59,458 | INFO  | producer-1 Produced: 1000 messages | org.apache.activemq.util.ProducerThread | producer-1
+2019-04-27 18:29:59,458 | INFO  | producer-1 Elapsed time in second : 9 s | org.apache.activemq.util.ProducerThread | producer-1
+2019-04-27 18:29:59,459 | INFO  | producer-1 Elapsed time in milli second : 9930 milli seconds | org.apache.activemq.util.ProducerThread | producer-1
+2019-04-27 18:30:43,125 | INFO  | Connecting to URL: failover://tcp://localhost:61616 as user: null | org.apache.activemq.console.command.ConsumerCommand | main
+2019-04-27 18:30:43,125 | INFO  | Consuming queue://TEST | org.apache.activemq.console.command.ConsumerCommand | main
+2019-04-27 18:30:43,126 | INFO  | Sleeping between receives 0 ms | org.apache.activemq.console.command.ConsumerCommand | main
+2019-04-27 18:30:43,126 | INFO  | Running 1 parallel threads | org.apache.activemq.console.command.ConsumerCommand | main
+2019-04-27 18:30:43,423 | INFO  | Successfully connected to tcp://localhost:61616 | org.apache.activemq.transport.failover.FailoverTransport | ActiveMQ Task-1
+2019-04-27 18:30:43,496 | INFO  | consumer-1 wait until 1000 messages are consumed | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,564 | INFO  | consumer-1 Received test message: 0 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,572 | INFO  | consumer-1 Received test message: 1 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,572 | INFO  | consumer-1 Received test message: 2 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,572 | INFO  | consumer-1 Received test message: 3 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,573 | INFO  | consumer-1 Received test message: 4 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,573 | INFO  | consumer-1 Received test message: 5 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,573 | INFO  | consumer-1 Received test message: 6 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,574 | INFO  | consumer-1 Received test message: 7 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,574 | INFO  | consumer-1 Received test message: 8 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,575 | INFO  | consumer-1 Received test message: 9 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,575 | INFO  | consumer-1 Received test message: 10 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,575 | INFO  | consumer-1 Received test message: 11 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,575 | INFO  | consumer-1 Received test message: 12 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,589 | INFO  | consumer-1 Received test message: 13 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,589 | INFO  | consumer-1 Received test message: 14 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,592 | INFO  | consumer-1 Received test message: 15 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,593 | INFO  | consumer-1 Received test message: 16 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,600 | INFO  | consumer-1 Received test message: 17 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,600 | INFO  | consumer-1 Received test message: 18 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,600 | INFO  | consumer-1 Received test message: 19 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,600 | INFO  | consumer-1 Received test message: 20 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,601 | INFO  | consumer-1 Received test message: 21 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,601 | INFO  | consumer-1 Received test message: 22 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,601 | INFO  | consumer-1 Received test message: 23 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,605 | INFO  | consumer-1 Received test message: 24 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,607 | INFO  | consumer-1 Received test message: 25 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,608 | INFO  | consumer-1 Received test message: 26 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,618 | INFO  | consumer-1 Received test message: 27 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,618 | INFO  | consumer-1 Received test message: 28 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,619 | INFO  | consumer-1 Received test message: 29 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,619 | INFO  | consumer-1 Received test message: 30 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,620 | INFO  | consumer-1 Received test message: 31 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,621 | INFO  | consumer-1 Received test message: 32 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,622 | INFO  | consumer-1 Received test message: 33 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,623 | INFO  | consumer-1 Received test message: 34 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,624 | INFO  | consumer-1 Received test message: 35 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,624 | INFO  | consumer-1 Received test message: 36 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,625 | INFO  | consumer-1 Received test message: 37 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,647 | INFO  | consumer-1 Received test message: 38 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,647 | INFO  | consumer-1 Received test message: 39 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,649 | INFO  | consumer-1 Received test message: 40 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,649 | INFO  | consumer-1 Received test message: 41 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,649 | INFO  | consumer-1 Received test message: 42 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,651 | INFO  | consumer-1 Received test message: 43 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,655 | INFO  | consumer-1 Received test message: 44 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,656 | INFO  | consumer-1 Received test message: 45 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,659 | INFO  | consumer-1 Received test message: 46 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,663 | INFO  | consumer-1 Received test message: 47 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,663 | INFO  | consumer-1 Received test message: 48 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,664 | INFO  | consumer-1 Received test message: 49 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,664 | INFO  | consumer-1 Received test message: 50 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,670 | INFO  | consumer-1 Received test message: 51 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,671 | INFO  | consumer-1 Received test message: 52 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,674 | INFO  | consumer-1 Received test message: 53 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,675 | INFO  | consumer-1 Received test message: 54 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,675 | INFO  | consumer-1 Received test message: 55 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,675 | INFO  | consumer-1 Received test message: 56 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,679 | INFO  | consumer-1 Received test message: 57 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,679 | INFO  | consumer-1 Received test message: 58 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,680 | INFO  | consumer-1 Received test message: 59 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,680 | INFO  | consumer-1 Received test message: 60 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,681 | INFO  | consumer-1 Received test message: 61 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,682 | INFO  | consumer-1 Received test message: 62 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,683 | INFO  | consumer-1 Received test message: 63 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,684 | INFO  | consumer-1 Received test message: 64 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,685 | INFO  | consumer-1 Received test message: 65 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,699 | INFO  | consumer-1 Received test message: 66 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,702 | INFO  | consumer-1 Received test message: 67 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,703 | INFO  | consumer-1 Received test message: 68 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,704 | INFO  | consumer-1 Received test message: 69 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,706 | INFO  | consumer-1 Received test message: 70 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,706 | INFO  | consumer-1 Received test message: 71 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,715 | INFO  | consumer-1 Received test message: 72 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,715 | INFO  | consumer-1 Received test message: 73 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,716 | INFO  | consumer-1 Received test message: 74 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,719 | INFO  | consumer-1 Received test message: 75 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,724 | INFO  | consumer-1 Received test message: 76 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,727 | INFO  | consumer-1 Received test message: 77 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,727 | INFO  | consumer-1 Received test message: 78 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,731 | INFO  | consumer-1 Received test message: 79 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,735 | INFO  | consumer-1 Received test message: 80 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,736 | INFO  | consumer-1 Received test message: 81 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,736 | INFO  | consumer-1 Received test message: 82 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,739 | INFO  | consumer-1 Received test message: 83 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,740 | INFO  | consumer-1 Received test message: 84 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,740 | INFO  | consumer-1 Received test message: 85 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,751 | INFO  | consumer-1 Received test message: 86 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,752 | INFO  | consumer-1 Received test message: 87 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,752 | INFO  | consumer-1 Received test message: 88 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,752 | INFO  | consumer-1 Received test message: 89 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,752 | INFO  | consumer-1 Received test message: 90 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,752 | INFO  | consumer-1 Received test message: 91 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,753 | INFO  | consumer-1 Received test message: 92 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,753 | INFO  | consumer-1 Received test message: 93 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,753 | INFO  | consumer-1 Received test message: 94 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,755 | INFO  | consumer-1 Received test message: 95 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,755 | INFO  | consumer-1 Received test message: 96 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,756 | INFO  | consumer-1 Received test message: 97 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,763 | INFO  | consumer-1 Received test message: 98 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,767 | INFO  | consumer-1 Received test message: 99 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,770 | INFO  | consumer-1 Received test message: 100 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,771 | INFO  | consumer-1 Received test message: 101 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,771 | INFO  | consumer-1 Received test message: 102 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,775 | INFO  | consumer-1 Received test message: 103 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,779 | INFO  | consumer-1 Received test message: 104 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,779 | INFO  | consumer-1 Received test message: 105 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,784 | INFO  | consumer-1 Received test message: 106 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,785 | INFO  | consumer-1 Received test message: 107 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,787 | INFO  | consumer-1 Received test message: 108 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,789 | INFO  | consumer-1 Received test message: 109 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,789 | INFO  | consumer-1 Received test message: 110 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,790 | INFO  | consumer-1 Received test message: 111 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,790 | INFO  | consumer-1 Received test message: 112 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,791 | INFO  | consumer-1 Received test message: 113 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,791 | INFO  | consumer-1 Received test message: 114 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,793 | INFO  | consumer-1 Received test message: 115 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,799 | INFO  | consumer-1 Received test message: 116 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,799 | INFO  | consumer-1 Received test message: 117 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,799 | INFO  | consumer-1 Received test message: 118 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,802 | INFO  | consumer-1 Received test message: 119 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,802 | INFO  | consumer-1 Received test message: 120 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,802 | INFO  | consumer-1 Received test message: 121 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,811 | INFO  | consumer-1 Received test message: 122 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,812 | INFO  | consumer-1 Received test message: 123 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,814 | INFO  | consumer-1 Received test message: 124 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,815 | INFO  | consumer-1 Received test message: 125 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,816 | INFO  | consumer-1 Received test message: 126 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,819 | INFO  | consumer-1 Received test message: 127 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,823 | INFO  | consumer-1 Received test message: 128 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,825 | INFO  | consumer-1 Received test message: 129 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,827 | INFO  | consumer-1 Received test message: 130 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,827 | INFO  | consumer-1 Received test message: 131 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,829 | INFO  | consumer-1 Received test message: 132 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,829 | INFO  | consumer-1 Received test message: 133 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,835 | INFO  | consumer-1 Received test message: 134 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,838 | INFO  | consumer-1 Received test message: 135 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,841 | INFO  | consumer-1 Received test message: 136 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,841 | INFO  | consumer-1 Received test message: 137 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,842 | INFO  | consumer-1 Received test message: 138 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,843 | INFO  | consumer-1 Received test message: 139 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,843 | INFO  | consumer-1 Received test message: 140 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,843 | INFO  | consumer-1 Received test message: 141 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,851 | INFO  | consumer-1 Received test message: 142 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,852 | INFO  | consumer-1 Received test message: 143 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,852 | INFO  | consumer-1 Received test message: 144 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,855 | INFO  | consumer-1 Received test message: 145 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,856 | INFO  | consumer-1 Received test message: 146 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,857 | INFO  | consumer-1 Received test message: 147 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,857 | INFO  | consumer-1 Received test message: 148 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,858 | INFO  | consumer-1 Received test message: 149 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,860 | INFO  | consumer-1 Received test message: 150 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,860 | INFO  | consumer-1 Received test message: 151 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,863 | INFO  | consumer-1 Received test message: 152 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,867 | INFO  | consumer-1 Received test message: 153 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,871 | INFO  | consumer-1 Received test message: 154 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,874 | INFO  | consumer-1 Received test message: 155 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,874 | INFO  | consumer-1 Received test message: 156 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,875 | INFO  | consumer-1 Received test message: 157 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,877 | INFO  | consumer-1 Received test message: 158 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,877 | INFO  | consumer-1 Received test message: 159 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,878 | INFO  | consumer-1 Received test message: 160 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,881 | INFO  | consumer-1 Received test message: 161 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,881 | INFO  | consumer-1 Received test message: 162 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,883 | INFO  | consumer-1 Received test message: 163 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,887 | INFO  | consumer-1 Received test message: 164 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,887 | INFO  | consumer-1 Received test message: 165 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,893 | INFO  | consumer-1 Received test message: 166 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,893 | INFO  | consumer-1 Received test message: 167 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,893 | INFO  | consumer-1 Received test message: 168 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,893 | INFO  | consumer-1 Received test message: 169 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,895 | INFO  | consumer-1 Received test message: 170 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,901 | INFO  | consumer-1 Received test message: 171 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,901 | INFO  | consumer-1 Received test message: 172 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,903 | INFO  | consumer-1 Received test message: 173 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,904 | INFO  | consumer-1 Received test message: 174 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,906 | INFO  | consumer-1 Received test message: 175 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,907 | INFO  | consumer-1 Received test message: 176 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,907 | INFO  | consumer-1 Received test message: 177 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,909 | INFO  | consumer-1 Received test message: 178 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,909 | INFO  | consumer-1 Received test message: 179 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,911 | INFO  | consumer-1 Received test message: 180 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,912 | INFO  | consumer-1 Received test message: 181 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,915 | INFO  | consumer-1 Received test message: 182 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,915 | INFO  | consumer-1 Received test message: 183 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,918 | INFO  | consumer-1 Received test message: 184 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,918 | INFO  | consumer-1 Received test message: 185 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,919 | INFO  | consumer-1 Received test message: 186 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,921 | INFO  | consumer-1 Received test message: 187 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,921 | INFO  | consumer-1 Received test message: 188 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,922 | INFO  | consumer-1 Received test message: 189 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,922 | INFO  | consumer-1 Received test message: 190 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,923 | INFO  | consumer-1 Received test message: 191 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,924 | INFO  | consumer-1 Received test message: 192 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,925 | INFO  | consumer-1 Received test message: 193 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,925 | INFO  | consumer-1 Received test message: 194 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,925 | INFO  | consumer-1 Received test message: 195 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,927 | INFO  | consumer-1 Received test message: 196 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,927 | INFO  | consumer-1 Received test message: 197 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,935 | INFO  | consumer-1 Received test message: 198 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,936 | INFO  | consumer-1 Received test message: 199 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,936 | INFO  | consumer-1 Received test message: 200 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,939 | INFO  | consumer-1 Received test message: 201 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,940 | INFO  | consumer-1 Received test message: 202 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,940 | INFO  | consumer-1 Received test message: 203 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,941 | INFO  | consumer-1 Received test message: 204 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,942 | INFO  | consumer-1 Received test message: 205 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,942 | INFO  | consumer-1 Received test message: 206 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,943 | INFO  | consumer-1 Received test message: 207 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,944 | INFO  | consumer-1 Received test message: 208 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,945 | INFO  | consumer-1 Received test message: 209 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,945 | INFO  | consumer-1 Received test message: 210 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,946 | INFO  | consumer-1 Received test message: 211 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,951 | INFO  | consumer-1 Received test message: 212 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,951 | INFO  | consumer-1 Received test message: 213 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,951 | INFO  | consumer-1 Received test message: 214 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,952 | INFO  | consumer-1 Received test message: 215 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,952 | INFO  | consumer-1 Received test message: 216 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,953 | INFO  | consumer-1 Received test message: 217 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,954 | INFO  | consumer-1 Received test message: 218 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,954 | INFO  | consumer-1 Received test message: 219 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,955 | INFO  | consumer-1 Received test message: 220 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,956 | INFO  | consumer-1 Received test message: 221 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,959 | INFO  | consumer-1 Received test message: 222 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,959 | INFO  | consumer-1 Received test message: 223 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,964 | INFO  | consumer-1 Received test message: 224 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,965 | INFO  | consumer-1 Received test message: 225 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,965 | INFO  | consumer-1 Received test message: 226 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,966 | INFO  | consumer-1 Received test message: 227 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,966 | INFO  | consumer-1 Received test message: 228 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,967 | INFO  | consumer-1 Received test message: 229 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,967 | INFO  | consumer-1 Received test message: 230 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,969 | INFO  | consumer-1 Received test message: 231 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,969 | INFO  | consumer-1 Received test message: 232 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,971 | INFO  | consumer-1 Received test message: 233 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,972 | INFO  | consumer-1 Received test message: 234 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,972 | INFO  | consumer-1 Received test message: 235 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,973 | INFO  | consumer-1 Received test message: 236 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,973 | INFO  | consumer-1 Received test message: 237 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,974 | INFO  | consumer-1 Received test message: 238 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,975 | INFO  | consumer-1 Received test message: 239 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,976 | INFO  | consumer-1 Received test message: 240 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,976 | INFO  | consumer-1 Received test message: 241 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,979 | INFO  | consumer-1 Received test message: 242 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,981 | INFO  | consumer-1 Received test message: 243 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,982 | INFO  | consumer-1 Received test message: 244 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,982 | INFO  | consumer-1 Received test message: 245 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,982 | INFO  | consumer-1 Received test message: 246 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,989 | INFO  | consumer-1 Received test message: 247 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,990 | INFO  | consumer-1 Received test message: 248 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,990 | INFO  | consumer-1 Received test message: 249 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,991 | INFO  | consumer-1 Received test message: 250 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,993 | INFO  | consumer-1 Received test message: 251 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,994 | INFO  | consumer-1 Received test message: 252 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,995 | INFO  | consumer-1 Received test message: 253 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,995 | INFO  | consumer-1 Received test message: 254 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,996 | INFO  | consumer-1 Received test message: 255 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,998 | INFO  | consumer-1 Received test message: 256 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:43,999 | INFO  | consumer-1 Received test message: 257 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,001 | INFO  | consumer-1 Received test message: 258 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,001 | INFO  | consumer-1 Received test message: 259 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,003 | INFO  | consumer-1 Received test message: 260 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,004 | INFO  | consumer-1 Received test message: 261 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,004 | INFO  | consumer-1 Received test message: 262 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,008 | INFO  | consumer-1 Received test message: 263 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,009 | INFO  | consumer-1 Received test message: 264 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,010 | INFO  | consumer-1 Received test message: 265 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,011 | INFO  | consumer-1 Received test message: 266 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,013 | INFO  | consumer-1 Received test message: 267 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,014 | INFO  | consumer-1 Received test message: 268 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,015 | INFO  | consumer-1 Received test message: 269 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,015 | INFO  | consumer-1 Received test message: 270 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,016 | INFO  | consumer-1 Received test message: 271 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,016 | INFO  | consumer-1 Received test message: 272 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,016 | INFO  | consumer-1 Received test message: 273 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,019 | INFO  | consumer-1 Received test message: 274 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,019 | INFO  | consumer-1 Received test message: 275 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,020 | INFO  | consumer-1 Received test message: 276 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,020 | INFO  | consumer-1 Received test message: 277 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,025 | INFO  | consumer-1 Received test message: 278 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,026 | INFO  | consumer-1 Received test message: 279 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,027 | INFO  | consumer-1 Received test message: 280 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,027 | INFO  | consumer-1 Received test message: 281 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,028 | INFO  | consumer-1 Received test message: 282 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,029 | INFO  | consumer-1 Received test message: 283 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,030 | INFO  | consumer-1 Received test message: 284 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,030 | INFO  | consumer-1 Received test message: 285 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,030 | INFO  | consumer-1 Received test message: 286 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,031 | INFO  | consumer-1 Received test message: 287 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,031 | INFO  | consumer-1 Received test message: 288 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,032 | INFO  | consumer-1 Received test message: 289 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,032 | INFO  | consumer-1 Received test message: 290 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,033 | INFO  | consumer-1 Received test message: 291 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,033 | INFO  | consumer-1 Received test message: 292 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,034 | INFO  | consumer-1 Received test message: 293 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,037 | INFO  | consumer-1 Received test message: 294 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,037 | INFO  | consumer-1 Received test message: 295 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,038 | INFO  | consumer-1 Received test message: 296 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,038 | INFO  | consumer-1 Received test message: 297 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,039 | INFO  | consumer-1 Received test message: 298 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,040 | INFO  | consumer-1 Received test message: 299 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,043 | INFO  | consumer-1 Received test message: 300 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,044 | INFO  | consumer-1 Received test message: 301 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,045 | INFO  | consumer-1 Received test message: 302 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,046 | INFO  | consumer-1 Received test message: 303 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,046 | INFO  | consumer-1 Received test message: 304 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,047 | INFO  | consumer-1 Received test message: 305 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,051 | INFO  | consumer-1 Received test message: 306 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,052 | INFO  | consumer-1 Received test message: 307 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,053 | INFO  | consumer-1 Received test message: 308 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,054 | INFO  | consumer-1 Received test message: 309 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,054 | INFO  | consumer-1 Received test message: 310 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,055 | INFO  | consumer-1 Received test message: 311 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,056 | INFO  | consumer-1 Received test message: 312 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,057 | INFO  | consumer-1 Received test message: 313 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,058 | INFO  | consumer-1 Received test message: 314 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,058 | INFO  | consumer-1 Received test message: 315 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,059 | INFO  | consumer-1 Received test message: 316 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,060 | INFO  | consumer-1 Received test message: 317 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,061 | INFO  | consumer-1 Received test message: 318 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,063 | INFO  | consumer-1 Received test message: 319 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,065 | INFO  | consumer-1 Received test message: 320 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,065 | INFO  | consumer-1 Received test message: 321 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,066 | INFO  | consumer-1 Received test message: 322 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,066 | INFO  | consumer-1 Received test message: 323 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,066 | INFO  | consumer-1 Received test message: 324 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,067 | INFO  | consumer-1 Received test message: 325 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,068 | INFO  | consumer-1 Received test message: 326 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,068 | INFO  | consumer-1 Received test message: 327 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,072 | INFO  | consumer-1 Received test message: 328 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,073 | INFO  | consumer-1 Received test message: 329 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,073 | INFO  | consumer-1 Received test message: 330 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,074 | INFO  | consumer-1 Received test message: 331 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,074 | INFO  | consumer-1 Received test message: 332 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,075 | INFO  | consumer-1 Received test message: 333 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,076 | INFO  | consumer-1 Received test message: 334 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,076 | INFO  | consumer-1 Received test message: 335 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,079 | INFO  | consumer-1 Received test message: 336 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,080 | INFO  | consumer-1 Received test message: 337 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,080 | INFO  | consumer-1 Received test message: 338 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,080 | INFO  | consumer-1 Received test message: 339 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,081 | INFO  | consumer-1 Received test message: 340 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,081 | INFO  | consumer-1 Received test message: 341 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,082 | INFO  | consumer-1 Received test message: 342 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,082 | INFO  | consumer-1 Received test message: 343 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,083 | INFO  | consumer-1 Received test message: 344 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,084 | INFO  | consumer-1 Received test message: 345 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,084 | INFO  | consumer-1 Received test message: 346 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,086 | INFO  | consumer-1 Received test message: 347 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,086 | INFO  | consumer-1 Received test message: 348 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,087 | INFO  | consumer-1 Received test message: 349 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,089 | INFO  | consumer-1 Received test message: 350 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,090 | INFO  | consumer-1 Received test message: 351 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,090 | INFO  | consumer-1 Received test message: 352 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,090 | INFO  | consumer-1 Received test message: 353 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,092 | INFO  | consumer-1 Received test message: 354 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,092 | INFO  | consumer-1 Received test message: 355 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,095 | INFO  | consumer-1 Received test message: 356 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,095 | INFO  | consumer-1 Received test message: 357 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,098 | INFO  | consumer-1 Received test message: 358 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,098 | INFO  | consumer-1 Received test message: 359 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,098 | INFO  | consumer-1 Received test message: 360 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,099 | INFO  | consumer-1 Received test message: 361 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,099 | INFO  | consumer-1 Received test message: 362 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,100 | INFO  | consumer-1 Received test message: 363 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,101 | INFO  | consumer-1 Received test message: 364 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,102 | INFO  | consumer-1 Received test message: 365 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,103 | INFO  | consumer-1 Received test message: 366 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,103 | INFO  | consumer-1 Received test message: 367 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,104 | INFO  | consumer-1 Received test message: 368 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,104 | INFO  | consumer-1 Received test message: 369 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,106 | INFO  | consumer-1 Received test message: 370 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,106 | INFO  | consumer-1 Received test message: 371 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,107 | INFO  | consumer-1 Received test message: 372 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,108 | INFO  | consumer-1 Received test message: 373 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,108 | INFO  | consumer-1 Received test message: 374 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,109 | INFO  | consumer-1 Received test message: 375 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,110 | INFO  | consumer-1 Received test message: 376 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,110 | INFO  | consumer-1 Received test message: 377 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,111 | INFO  | consumer-1 Received test message: 378 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,112 | INFO  | consumer-1 Received test message: 379 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,112 | INFO  | consumer-1 Received test message: 380 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,113 | INFO  | consumer-1 Received test message: 381 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,115 | INFO  | consumer-1 Received test message: 382 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,116 | INFO  | consumer-1 Received test message: 383 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,116 | INFO  | consumer-1 Received test message: 384 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,116 | INFO  | consumer-1 Received test message: 385 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,117 | INFO  | consumer-1 Received test message: 386 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,118 | INFO  | consumer-1 Received test message: 387 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,119 | INFO  | consumer-1 Received test message: 388 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,119 | INFO  | consumer-1 Received test message: 389 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,120 | INFO  | consumer-1 Received test message: 390 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,120 | INFO  | consumer-1 Received test message: 391 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,121 | INFO  | consumer-1 Received test message: 392 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,121 | INFO  | consumer-1 Received test message: 393 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,123 | INFO  | consumer-1 Received test message: 394 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,124 | INFO  | consumer-1 Received test message: 395 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,124 | INFO  | consumer-1 Received test message: 396 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,125 | INFO  | consumer-1 Received test message: 397 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,126 | INFO  | consumer-1 Received test message: 398 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,126 | INFO  | consumer-1 Received test message: 399 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,131 | INFO  | consumer-1 Received test message: 400 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,132 | INFO  | consumer-1 Received test message: 401 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,132 | INFO  | consumer-1 Received test message: 402 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,132 | INFO  | consumer-1 Received test message: 403 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,133 | INFO  | consumer-1 Received test message: 404 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,134 | INFO  | consumer-1 Received test message: 405 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,135 | INFO  | consumer-1 Received test message: 406 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,135 | INFO  | consumer-1 Received test message: 407 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,135 | INFO  | consumer-1 Received test message: 408 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,136 | INFO  | consumer-1 Received test message: 409 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,136 | INFO  | consumer-1 Received test message: 410 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,136 | INFO  | consumer-1 Received test message: 411 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,137 | INFO  | consumer-1 Received test message: 412 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,137 | INFO  | consumer-1 Received test message: 413 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,138 | INFO  | consumer-1 Received test message: 414 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,139 | INFO  | consumer-1 Received test message: 415 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,139 | INFO  | consumer-1 Received test message: 416 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,143 | INFO  | consumer-1 Received test message: 417 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,143 | INFO  | consumer-1 Received test message: 418 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,144 | INFO  | consumer-1 Received test message: 419 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,144 | INFO  | consumer-1 Received test message: 420 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,144 | INFO  | consumer-1 Received test message: 421 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,145 | INFO  | consumer-1 Received test message: 422 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,145 | INFO  | consumer-1 Received test message: 423 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,145 | INFO  | consumer-1 Received test message: 424 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,146 | INFO  | consumer-1 Received test message: 425 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,146 | INFO  | consumer-1 Received test message: 426 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,146 | INFO  | consumer-1 Received test message: 427 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,146 | INFO  | consumer-1 Received test message: 428 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,147 | INFO  | consumer-1 Received test message: 429 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,147 | INFO  | consumer-1 Received test message: 430 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,147 | INFO  | consumer-1 Received test message: 431 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,148 | INFO  | consumer-1 Received test message: 432 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,148 | INFO  | consumer-1 Received test message: 433 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,148 | INFO  | consumer-1 Received test message: 434 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,149 | INFO  | consumer-1 Received test message: 435 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,149 | INFO  | consumer-1 Received test message: 436 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,149 | INFO  | consumer-1 Received test message: 437 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,149 | INFO  | consumer-1 Received test message: 438 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,150 | INFO  | consumer-1 Received test message: 439 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,152 | INFO  | consumer-1 Received test message: 440 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,152 | INFO  | consumer-1 Received test message: 441 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,153 | INFO  | consumer-1 Received test message: 442 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,153 | INFO  | consumer-1 Received test message: 443 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,153 | INFO  | consumer-1 Received test message: 444 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,154 | INFO  | consumer-1 Received test message: 445 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,158 | INFO  | consumer-1 Received test message: 446 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,158 | INFO  | consumer-1 Received test message: 447 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,158 | INFO  | consumer-1 Received test message: 448 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,159 | INFO  | consumer-1 Received test message: 449 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,159 | INFO  | consumer-1 Received test message: 450 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,160 | INFO  | consumer-1 Received test message: 451 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,160 | INFO  | consumer-1 Received test message: 452 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,161 | INFO  | consumer-1 Received test message: 453 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,161 | INFO  | consumer-1 Received test message: 454 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,162 | INFO  | consumer-1 Received test message: 455 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,163 | INFO  | consumer-1 Received test message: 456 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,163 | INFO  | consumer-1 Received test message: 457 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,163 | INFO  | consumer-1 Received test message: 458 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,164 | INFO  | consumer-1 Received test message: 459 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,164 | INFO  | consumer-1 Received test message: 460 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,164 | INFO  | consumer-1 Received test message: 461 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,164 | INFO  | consumer-1 Received test message: 462 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,165 | INFO  | consumer-1 Received test message: 463 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,166 | INFO  | consumer-1 Received test message: 464 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,166 | INFO  | consumer-1 Received test message: 465 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,167 | INFO  | consumer-1 Received test message: 466 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,167 | INFO  | consumer-1 Received test message: 467 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,167 | INFO  | consumer-1 Received test message: 468 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,168 | INFO  | consumer-1 Received test message: 469 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,168 | INFO  | consumer-1 Received test message: 470 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,170 | INFO  | consumer-1 Received test message: 471 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,170 | INFO  | consumer-1 Received test message: 472 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,170 | INFO  | consumer-1 Received test message: 473 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,171 | INFO  | consumer-1 Received test message: 474 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,171 | INFO  | consumer-1 Received test message: 475 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,172 | INFO  | consumer-1 Received test message: 476 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,172 | INFO  | consumer-1 Received test message: 477 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,173 | INFO  | consumer-1 Received test message: 478 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,175 | INFO  | consumer-1 Received test message: 479 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,175 | INFO  | consumer-1 Received test message: 480 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,179 | INFO  | consumer-1 Received test message: 481 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,179 | INFO  | consumer-1 Received test message: 482 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,180 | INFO  | consumer-1 Received test message: 483 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,180 | INFO  | consumer-1 Received test message: 484 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,180 | INFO  | consumer-1 Received test message: 485 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,181 | INFO  | consumer-1 Received test message: 486 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,182 | INFO  | consumer-1 Received test message: 487 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,182 | INFO  | consumer-1 Received test message: 488 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,182 | INFO  | consumer-1 Received test message: 489 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,183 | INFO  | consumer-1 Received test message: 490 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,183 | INFO  | consumer-1 Received test message: 491 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,183 | INFO  | consumer-1 Received test message: 492 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,184 | INFO  | consumer-1 Received test message: 493 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,185 | INFO  | consumer-1 Received test message: 494 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,186 | INFO  | consumer-1 Received test message: 495 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,188 | INFO  | consumer-1 Received test message: 496 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,188 | INFO  | consumer-1 Received test message: 497 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,189 | INFO  | consumer-1 Received test message: 498 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,189 | INFO  | consumer-1 Received test message: 499 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,190 | INFO  | consumer-1 Received test message: 500 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,191 | INFO  | consumer-1 Received test message: 501 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,191 | INFO  | consumer-1 Received test message: 502 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,191 | INFO  | consumer-1 Received test message: 503 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,192 | INFO  | consumer-1 Received test message: 504 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,194 | INFO  | consumer-1 Received test message: 505 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,202 | INFO  | consumer-1 Received test message: 506 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,204 | INFO  | consumer-1 Received test message: 507 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,205 | INFO  | consumer-1 Received test message: 508 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,205 | INFO  | consumer-1 Received test message: 509 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,207 | INFO  | consumer-1 Received test message: 510 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,209 | INFO  | consumer-1 Received test message: 511 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,210 | INFO  | consumer-1 Received test message: 512 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,210 | INFO  | consumer-1 Received test message: 513 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,211 | INFO  | consumer-1 Received test message: 514 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,211 | INFO  | consumer-1 Received test message: 515 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,211 | INFO  | consumer-1 Received test message: 516 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,217 | INFO  | consumer-1 Received test message: 517 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,217 | INFO  | consumer-1 Received test message: 518 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,218 | INFO  | consumer-1 Received test message: 519 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,219 | INFO  | consumer-1 Received test message: 520 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,219 | INFO  | consumer-1 Received test message: 521 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,220 | INFO  | consumer-1 Received test message: 522 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,221 | INFO  | consumer-1 Received test message: 523 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,221 | INFO  | consumer-1 Received test message: 524 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,221 | INFO  | consumer-1 Received test message: 525 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,222 | INFO  | consumer-1 Received test message: 526 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,222 | INFO  | consumer-1 Received test message: 527 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,223 | INFO  | consumer-1 Received test message: 528 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,223 | INFO  | consumer-1 Received test message: 529 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,224 | INFO  | consumer-1 Received test message: 530 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,225 | INFO  | consumer-1 Received test message: 531 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,225 | INFO  | consumer-1 Received test message: 532 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,226 | INFO  | consumer-1 Received test message: 533 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,226 | INFO  | consumer-1 Received test message: 534 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,226 | INFO  | consumer-1 Received test message: 535 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,227 | INFO  | consumer-1 Received test message: 536 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,227 | INFO  | consumer-1 Received test message: 537 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,229 | INFO  | consumer-1 Received test message: 538 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,232 | INFO  | consumer-1 Received test message: 539 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,232 | INFO  | consumer-1 Received test message: 540 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,232 | INFO  | consumer-1 Received test message: 541 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,233 | INFO  | consumer-1 Received test message: 542 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,234 | INFO  | consumer-1 Received test message: 543 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,234 | INFO  | consumer-1 Received test message: 544 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,234 | INFO  | consumer-1 Received test message: 545 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,235 | INFO  | consumer-1 Received test message: 546 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,236 | INFO  | consumer-1 Received test message: 547 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,237 | INFO  | consumer-1 Received test message: 548 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,237 | INFO  | consumer-1 Received test message: 549 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,238 | INFO  | consumer-1 Received test message: 550 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,238 | INFO  | consumer-1 Received test message: 551 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,238 | INFO  | consumer-1 Received test message: 552 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,239 | INFO  | consumer-1 Received test message: 553 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,242 | INFO  | consumer-1 Received test message: 554 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,243 | INFO  | consumer-1 Received test message: 555 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,243 | INFO  | consumer-1 Received test message: 556 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,243 | INFO  | consumer-1 Received test message: 557 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,244 | INFO  | consumer-1 Received test message: 558 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,244 | INFO  | consumer-1 Received test message: 559 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,244 | INFO  | consumer-1 Received test message: 560 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,245 | INFO  | consumer-1 Received test message: 561 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,245 | INFO  | consumer-1 Received test message: 562 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,245 | INFO  | consumer-1 Received test message: 563 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,245 | INFO  | consumer-1 Received test message: 564 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,246 | INFO  | consumer-1 Received test message: 565 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,246 | INFO  | consumer-1 Received test message: 566 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,248 | INFO  | consumer-1 Received test message: 567 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,248 | INFO  | consumer-1 Received test message: 568 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,249 | INFO  | consumer-1 Received test message: 569 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,249 | INFO  | consumer-1 Received test message: 570 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,250 | INFO  | consumer-1 Received test message: 571 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,251 | INFO  | consumer-1 Received test message: 572 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,251 | INFO  | consumer-1 Received test message: 573 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,251 | INFO  | consumer-1 Received test message: 574 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,252 | INFO  | consumer-1 Received test message: 575 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,252 | INFO  | consumer-1 Received test message: 576 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,252 | INFO  | consumer-1 Received test message: 577 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,253 | INFO  | consumer-1 Received test message: 578 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,253 | INFO  | consumer-1 Received test message: 579 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,253 | INFO  | consumer-1 Received test message: 580 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,254 | INFO  | consumer-1 Received test message: 581 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,255 | INFO  | consumer-1 Received test message: 582 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,255 | INFO  | consumer-1 Received test message: 583 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,256 | INFO  | consumer-1 Received test message: 584 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,256 | INFO  | consumer-1 Received test message: 585 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,256 | INFO  | consumer-1 Received test message: 586 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,256 | INFO  | consumer-1 Received test message: 587 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,256 | INFO  | consumer-1 Received test message: 588 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,257 | INFO  | consumer-1 Received test message: 589 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,257 | INFO  | consumer-1 Received test message: 590 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,257 | INFO  | consumer-1 Received test message: 591 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,257 | INFO  | consumer-1 Received test message: 592 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,258 | INFO  | consumer-1 Received test message: 593 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,258 | INFO  | consumer-1 Received test message: 594 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,258 | INFO  | consumer-1 Received test message: 595 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,258 | INFO  | consumer-1 Received test message: 596 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,258 | INFO  | consumer-1 Received test message: 597 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 598 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 599 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 600 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 601 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 602 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 603 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 604 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,259 | INFO  | consumer-1 Received test message: 605 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,260 | INFO  | consumer-1 Received test message: 606 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,260 | INFO  | consumer-1 Received test message: 607 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,260 | INFO  | consumer-1 Received test message: 608 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,260 | INFO  | consumer-1 Received test message: 609 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,260 | INFO  | consumer-1 Received test message: 610 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,266 | INFO  | consumer-1 Received test message: 611 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,267 | INFO  | consumer-1 Received test message: 612 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,269 | INFO  | consumer-1 Received test message: 613 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,269 | INFO  | consumer-1 Received test message: 614 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,269 | INFO  | consumer-1 Received test message: 615 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,270 | INFO  | consumer-1 Received test message: 616 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,273 | INFO  | consumer-1 Received test message: 617 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,275 | INFO  | consumer-1 Received test message: 618 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,275 | INFO  | consumer-1 Received test message: 619 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,275 | INFO  | consumer-1 Received test message: 620 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,276 | INFO  | consumer-1 Received test message: 621 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,276 | INFO  | consumer-1 Received test message: 622 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,279 | INFO  | consumer-1 Received test message: 623 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,279 | INFO  | consumer-1 Received test message: 624 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,280 | INFO  | consumer-1 Received test message: 625 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,280 | INFO  | consumer-1 Received test message: 626 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,280 | INFO  | consumer-1 Received test message: 627 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,281 | INFO  | consumer-1 Received test message: 628 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,281 | INFO  | consumer-1 Received test message: 629 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,282 | INFO  | consumer-1 Received test message: 630 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,282 | INFO  | consumer-1 Received test message: 631 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,282 | INFO  | consumer-1 Received test message: 632 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,283 | INFO  | consumer-1 Received test message: 633 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,289 | INFO  | consumer-1 Received test message: 634 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,289 | INFO  | consumer-1 Received test message: 635 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,289 | INFO  | consumer-1 Received test message: 636 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,290 | INFO  | consumer-1 Received test message: 637 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,291 | INFO  | consumer-1 Received test message: 638 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,291 | INFO  | consumer-1 Received test message: 639 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,292 | INFO  | consumer-1 Received test message: 640 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,292 | INFO  | consumer-1 Received test message: 641 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,292 | INFO  | consumer-1 Received test message: 642 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,293 | INFO  | consumer-1 Received test message: 643 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,293 | INFO  | consumer-1 Received test message: 644 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,293 | INFO  | consumer-1 Received test message: 645 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,293 | INFO  | consumer-1 Received test message: 646 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,295 | INFO  | consumer-1 Received test message: 647 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,296 | INFO  | consumer-1 Received test message: 648 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,297 | INFO  | consumer-1 Received test message: 649 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,297 | INFO  | consumer-1 Received test message: 650 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,297 | INFO  | consumer-1 Received test message: 651 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,297 | INFO  | consumer-1 Received test message: 652 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,298 | INFO  | consumer-1 Received test message: 653 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,298 | INFO  | consumer-1 Received test message: 654 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,298 | INFO  | consumer-1 Received test message: 655 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,298 | INFO  | consumer-1 Received test message: 656 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,299 | INFO  | consumer-1 Received test message: 657 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,299 | INFO  | consumer-1 Received test message: 658 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,299 | INFO  | consumer-1 Received test message: 659 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,303 | INFO  | consumer-1 Received test message: 660 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,303 | INFO  | consumer-1 Received test message: 661 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,304 | INFO  | consumer-1 Received test message: 662 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,304 | INFO  | consumer-1 Received test message: 663 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,304 | INFO  | consumer-1 Received test message: 664 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,304 | INFO  | consumer-1 Received test message: 665 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,305 | INFO  | consumer-1 Received test message: 666 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,305 | INFO  | consumer-1 Received test message: 667 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,305 | INFO  | consumer-1 Received test message: 668 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,306 | INFO  | consumer-1 Received test message: 669 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,306 | INFO  | consumer-1 Received test message: 670 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,307 | INFO  | consumer-1 Received test message: 671 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,307 | INFO  | consumer-1 Received test message: 672 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,308 | INFO  | consumer-1 Received test message: 673 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,308 | INFO  | consumer-1 Received test message: 674 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,308 | INFO  | consumer-1 Received test message: 675 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,309 | INFO  | consumer-1 Received test message: 676 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,309 | INFO  | consumer-1 Received test message: 677 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,309 | INFO  | consumer-1 Received test message: 678 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,310 | INFO  | consumer-1 Received test message: 679 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,310 | INFO  | consumer-1 Received test message: 680 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,310 | INFO  | consumer-1 Received test message: 681 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,311 | INFO  | consumer-1 Received test message: 682 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,311 | INFO  | consumer-1 Received test message: 683 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,312 | INFO  | consumer-1 Received test message: 684 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,315 | INFO  | consumer-1 Received test message: 685 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,315 | INFO  | consumer-1 Received test message: 686 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,316 | INFO  | consumer-1 Received test message: 687 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,316 | INFO  | consumer-1 Received test message: 688 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,316 | INFO  | consumer-1 Received test message: 689 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,316 | INFO  | consumer-1 Received test message: 690 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,317 | INFO  | consumer-1 Received test message: 691 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,317 | INFO  | consumer-1 Received test message: 692 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,317 | INFO  | consumer-1 Received test message: 693 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,318 | INFO  | consumer-1 Received test message: 694 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,318 | INFO  | consumer-1 Received test message: 695 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,319 | INFO  | consumer-1 Received test message: 696 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,319 | INFO  | consumer-1 Received test message: 697 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,320 | INFO  | consumer-1 Received test message: 698 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,320 | INFO  | consumer-1 Received test message: 699 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,320 | INFO  | consumer-1 Received test message: 700 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,320 | INFO  | consumer-1 Received test message: 701 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,321 | INFO  | consumer-1 Received test message: 702 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,321 | INFO  | consumer-1 Received test message: 703 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,321 | INFO  | consumer-1 Received test message: 704 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,321 | INFO  | consumer-1 Received test message: 705 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,322 | INFO  | consumer-1 Received test message: 706 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,322 | INFO  | consumer-1 Received test message: 707 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,323 | INFO  | consumer-1 Received test message: 708 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,324 | INFO  | consumer-1 Received test message: 709 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,327 | INFO  | consumer-1 Received test message: 710 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,327 | INFO  | consumer-1 Received test message: 711 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,328 | INFO  | consumer-1 Received test message: 712 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,331 | INFO  | consumer-1 Received test message: 713 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,332 | INFO  | consumer-1 Received test message: 714 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,332 | INFO  | consumer-1 Received test message: 715 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,334 | INFO  | consumer-1 Received test message: 716 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,334 | INFO  | consumer-1 Received test message: 717 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,335 | INFO  | consumer-1 Received test message: 718 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,335 | INFO  | consumer-1 Received test message: 719 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,336 | INFO  | consumer-1 Received test message: 720 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,336 | INFO  | consumer-1 Received test message: 721 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,336 | INFO  | consumer-1 Received test message: 722 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,336 | INFO  | consumer-1 Received test message: 723 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,337 | INFO  | consumer-1 Received test message: 724 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,337 | INFO  | consumer-1 Received test message: 725 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,338 | INFO  | consumer-1 Received test message: 726 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,339 | INFO  | consumer-1 Received test message: 727 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,339 | INFO  | consumer-1 Received test message: 728 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,340 | INFO  | consumer-1 Received test message: 729 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,340 | INFO  | consumer-1 Received test message: 730 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,341 | INFO  | consumer-1 Received test message: 731 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,342 | INFO  | consumer-1 Received test message: 732 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,343 | INFO  | consumer-1 Received test message: 733 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,343 | INFO  | consumer-1 Received test message: 734 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,344 | INFO  | consumer-1 Received test message: 735 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,344 | INFO  | consumer-1 Received test message: 736 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,344 | INFO  | consumer-1 Received test message: 737 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,345 | INFO  | consumer-1 Received test message: 738 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,346 | INFO  | consumer-1 Received test message: 739 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,346 | INFO  | consumer-1 Received test message: 740 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,347 | INFO  | consumer-1 Received test message: 741 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,348 | INFO  | consumer-1 Received test message: 742 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,349 | INFO  | consumer-1 Received test message: 743 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,349 | INFO  | consumer-1 Received test message: 744 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,349 | INFO  | consumer-1 Received test message: 745 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,350 | INFO  | consumer-1 Received test message: 746 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,350 | INFO  | consumer-1 Received test message: 747 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,350 | INFO  | consumer-1 Received test message: 748 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,351 | INFO  | consumer-1 Received test message: 749 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,352 | INFO  | consumer-1 Received test message: 750 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,353 | INFO  | consumer-1 Received test message: 751 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,353 | INFO  | consumer-1 Received test message: 752 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,355 | INFO  | consumer-1 Received test message: 753 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,355 | INFO  | consumer-1 Received test message: 754 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,356 | INFO  | consumer-1 Received test message: 755 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,356 | INFO  | consumer-1 Received test message: 756 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,357 | INFO  | consumer-1 Received test message: 757 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,358 | INFO  | consumer-1 Received test message: 758 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,358 | INFO  | consumer-1 Received test message: 759 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,362 | INFO  | consumer-1 Received test message: 760 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,362 | INFO  | consumer-1 Received test message: 761 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,362 | INFO  | consumer-1 Received test message: 762 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,363 | INFO  | consumer-1 Received test message: 763 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,364 | INFO  | consumer-1 Received test message: 764 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,364 | INFO  | consumer-1 Received test message: 765 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,366 | INFO  | consumer-1 Received test message: 766 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,366 | INFO  | consumer-1 Received test message: 767 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,368 | INFO  | consumer-1 Received test message: 768 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,369 | INFO  | consumer-1 Received test message: 769 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,369 | INFO  | consumer-1 Received test message: 770 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,370 | INFO  | consumer-1 Received test message: 771 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,370 | INFO  | consumer-1 Received test message: 772 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,370 | INFO  | consumer-1 Received test message: 773 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,371 | INFO  | consumer-1 Received test message: 774 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,371 | INFO  | consumer-1 Received test message: 775 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,372 | INFO  | consumer-1 Received test message: 776 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,375 | INFO  | consumer-1 Received test message: 777 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,377 | INFO  | consumer-1 Received test message: 778 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,378 | INFO  | consumer-1 Received test message: 779 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,378 | INFO  | consumer-1 Received test message: 780 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,379 | INFO  | consumer-1 Received test message: 781 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,379 | INFO  | consumer-1 Received test message: 782 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,379 | INFO  | consumer-1 Received test message: 783 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,379 | INFO  | consumer-1 Received test message: 784 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,379 | INFO  | consumer-1 Received test message: 785 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,380 | INFO  | consumer-1 Received test message: 786 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,380 | INFO  | consumer-1 Received test message: 787 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,380 | INFO  | consumer-1 Received test message: 788 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,383 | INFO  | consumer-1 Received test message: 789 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,383 | INFO  | consumer-1 Received test message: 790 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,387 | INFO  | consumer-1 Received test message: 791 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,387 | INFO  | consumer-1 Received test message: 792 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,388 | INFO  | consumer-1 Received test message: 793 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,389 | INFO  | consumer-1 Received test message: 794 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,389 | INFO  | consumer-1 Received test message: 795 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,389 | INFO  | consumer-1 Received test message: 796 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,389 | INFO  | consumer-1 Received test message: 797 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,391 | INFO  | consumer-1 Received test message: 798 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,391 | INFO  | consumer-1 Received test message: 799 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,393 | INFO  | consumer-1 Received test message: 800 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,393 | INFO  | consumer-1 Received test message: 801 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,393 | INFO  | consumer-1 Received test message: 802 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,394 | INFO  | consumer-1 Received test message: 803 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,394 | INFO  | consumer-1 Received test message: 804 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,394 | INFO  | consumer-1 Received test message: 805 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,394 | INFO  | consumer-1 Received test message: 806 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,394 | INFO  | consumer-1 Received test message: 807 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,395 | INFO  | consumer-1 Received test message: 808 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,395 | INFO  | consumer-1 Received test message: 809 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,395 | INFO  | consumer-1 Received test message: 810 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,396 | INFO  | consumer-1 Received test message: 811 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,397 | INFO  | consumer-1 Received test message: 812 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,397 | INFO  | consumer-1 Received test message: 813 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,398 | INFO  | consumer-1 Received test message: 814 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,398 | INFO  | consumer-1 Received test message: 815 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,398 | INFO  | consumer-1 Received test message: 816 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,398 | INFO  | consumer-1 Received test message: 817 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,399 | INFO  | consumer-1 Received test message: 818 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,399 | INFO  | consumer-1 Received test message: 819 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,399 | INFO  | consumer-1 Received test message: 820 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,401 | INFO  | consumer-1 Received test message: 821 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,403 | INFO  | consumer-1 Received test message: 822 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,403 | INFO  | consumer-1 Received test message: 823 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,403 | INFO  | consumer-1 Received test message: 824 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,405 | INFO  | consumer-1 Received test message: 825 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,405 | INFO  | consumer-1 Received test message: 826 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,405 | INFO  | consumer-1 Received test message: 827 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,405 | INFO  | consumer-1 Received test message: 828 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,406 | INFO  | consumer-1 Received test message: 829 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,406 | INFO  | consumer-1 Received test message: 830 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,406 | INFO  | consumer-1 Received test message: 831 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,406 | INFO  | consumer-1 Received test message: 832 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,407 | INFO  | consumer-1 Received test message: 833 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,407 | INFO  | consumer-1 Received test message: 834 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,407 | INFO  | consumer-1 Received test message: 835 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,407 | INFO  | consumer-1 Received test message: 836 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,408 | INFO  | consumer-1 Received test message: 837 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,411 | INFO  | consumer-1 Received test message: 838 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,412 | INFO  | consumer-1 Received test message: 839 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,413 | INFO  | consumer-1 Received test message: 840 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,413 | INFO  | consumer-1 Received test message: 841 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,414 | INFO  | consumer-1 Received test message: 842 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,414 | INFO  | consumer-1 Received test message: 843 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,414 | INFO  | consumer-1 Received test message: 844 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,414 | INFO  | consumer-1 Received test message: 845 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,415 | INFO  | consumer-1 Received test message: 846 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,415 | INFO  | consumer-1 Received test message: 847 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,415 | INFO  | consumer-1 Received test message: 848 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,417 | INFO  | consumer-1 Received test message: 849 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,417 | INFO  | consumer-1 Received test message: 850 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,417 | INFO  | consumer-1 Received test message: 851 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,419 | INFO  | consumer-1 Received test message: 852 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,419 | INFO  | consumer-1 Received test message: 853 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,420 | INFO  | consumer-1 Received test message: 854 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,420 | INFO  | consumer-1 Received test message: 855 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,420 | INFO  | consumer-1 Received test message: 856 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,420 | INFO  | consumer-1 Received test message: 857 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,420 | INFO  | consumer-1 Received test message: 858 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,421 | INFO  | consumer-1 Received test message: 859 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,421 | INFO  | consumer-1 Received test message: 860 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,421 | INFO  | consumer-1 Received test message: 861 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,421 | INFO  | consumer-1 Received test message: 862 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,422 | INFO  | consumer-1 Received test message: 863 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,422 | INFO  | consumer-1 Received test message: 864 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,422 | INFO  | consumer-1 Received test message: 865 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,423 | INFO  | consumer-1 Received test message: 866 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,423 | INFO  | consumer-1 Received test message: 867 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,423 | INFO  | consumer-1 Received test message: 868 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,423 | INFO  | consumer-1 Received test message: 869 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,424 | INFO  | consumer-1 Received test message: 870 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,427 | INFO  | consumer-1 Received test message: 871 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,427 | INFO  | consumer-1 Received test message: 872 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,428 | INFO  | consumer-1 Received test message: 873 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,428 | INFO  | consumer-1 Received test message: 874 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,431 | INFO  | consumer-1 Received test message: 875 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,431 | INFO  | consumer-1 Received test message: 876 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,432 | INFO  | consumer-1 Received test message: 877 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,432 | INFO  | consumer-1 Received test message: 878 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,432 | INFO  | consumer-1 Received test message: 879 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,432 | INFO  | consumer-1 Received test message: 880 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,433 | INFO  | consumer-1 Received test message: 881 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,433 | INFO  | consumer-1 Received test message: 882 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,433 | INFO  | consumer-1 Received test message: 883 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,433 | INFO  | consumer-1 Received test message: 884 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,434 | INFO  | consumer-1 Received test message: 885 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,434 | INFO  | consumer-1 Received test message: 886 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,434 | INFO  | consumer-1 Received test message: 887 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,434 | INFO  | consumer-1 Received test message: 888 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,434 | INFO  | consumer-1 Received test message: 889 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,435 | INFO  | consumer-1 Received test message: 890 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,435 | INFO  | consumer-1 Received test message: 891 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,435 | INFO  | consumer-1 Received test message: 892 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,435 | INFO  | consumer-1 Received test message: 893 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,436 | INFO  | consumer-1 Received test message: 894 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,438 | INFO  | consumer-1 Received test message: 895 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,439 | INFO  | consumer-1 Received test message: 896 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,440 | INFO  | consumer-1 Received test message: 897 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,440 | INFO  | consumer-1 Received test message: 898 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,440 | INFO  | consumer-1 Received test message: 899 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,440 | INFO  | consumer-1 Received test message: 900 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,441 | INFO  | consumer-1 Received test message: 901 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,441 | INFO  | consumer-1 Received test message: 902 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,442 | INFO  | consumer-1 Received test message: 903 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,443 | INFO  | consumer-1 Received test message: 904 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,443 | INFO  | consumer-1 Received test message: 905 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,444 | INFO  | consumer-1 Received test message: 906 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,444 | INFO  | consumer-1 Received test message: 907 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,445 | INFO  | consumer-1 Received test message: 908 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,445 | INFO  | consumer-1 Received test message: 909 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,446 | INFO  | consumer-1 Received test message: 910 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,447 | INFO  | consumer-1 Received test message: 911 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,447 | INFO  | consumer-1 Received test message: 912 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,447 | INFO  | consumer-1 Received test message: 913 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,447 | INFO  | consumer-1 Received test message: 914 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,447 | INFO  | consumer-1 Received test message: 915 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,448 | INFO  | consumer-1 Received test message: 916 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,449 | INFO  | consumer-1 Received test message: 917 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,449 | INFO  | consumer-1 Received test message: 918 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,450 | INFO  | consumer-1 Received test message: 919 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,451 | INFO  | consumer-1 Received test message: 920 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,451 | INFO  | consumer-1 Received test message: 921 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,452 | INFO  | consumer-1 Received test message: 922 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,455 | INFO  | consumer-1 Received test message: 923 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,455 | INFO  | consumer-1 Received test message: 924 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,456 | INFO  | consumer-1 Received test message: 925 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,456 | INFO  | consumer-1 Received test message: 926 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,456 | INFO  | consumer-1 Received test message: 927 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,456 | INFO  | consumer-1 Received test message: 928 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,457 | INFO  | consumer-1 Received test message: 929 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,459 | INFO  | consumer-1 Received test message: 930 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,459 | INFO  | consumer-1 Received test message: 931 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,460 | INFO  | consumer-1 Received test message: 932 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,460 | INFO  | consumer-1 Received test message: 933 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,460 | INFO  | consumer-1 Received test message: 934 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,461 | INFO  | consumer-1 Received test message: 935 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,462 | INFO  | consumer-1 Received test message: 936 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,462 | INFO  | consumer-1 Received test message: 937 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,462 | INFO  | consumer-1 Received test message: 938 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,462 | INFO  | consumer-1 Received test message: 939 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,462 | INFO  | consumer-1 Received test message: 940 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,463 | INFO  | consumer-1 Received test message: 941 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,463 | INFO  | consumer-1 Received test message: 942 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,463 | INFO  | consumer-1 Received test message: 943 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,463 | INFO  | consumer-1 Received test message: 944 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,463 | INFO  | consumer-1 Received test message: 945 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,464 | INFO  | consumer-1 Received test message: 946 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,464 | INFO  | consumer-1 Received test message: 947 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,464 | INFO  | consumer-1 Received test message: 948 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,464 | INFO  | consumer-1 Received test message: 949 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,465 | INFO  | consumer-1 Received test message: 950 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,467 | INFO  | consumer-1 Received test message: 951 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,467 | INFO  | consumer-1 Received test message: 952 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,467 | INFO  | consumer-1 Received test message: 953 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,468 | INFO  | consumer-1 Received test message: 954 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,468 | INFO  | consumer-1 Received test message: 955 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,468 | INFO  | consumer-1 Received test message: 956 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,468 | INFO  | consumer-1 Received test message: 957 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,470 | INFO  | consumer-1 Received test message: 958 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,470 | INFO  | consumer-1 Received test message: 959 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,470 | INFO  | consumer-1 Received test message: 960 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,470 | INFO  | consumer-1 Received test message: 961 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,470 | INFO  | consumer-1 Received test message: 962 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,471 | INFO  | consumer-1 Received test message: 963 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,471 | INFO  | consumer-1 Received test message: 964 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,471 | INFO  | consumer-1 Received test message: 965 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,472 | INFO  | consumer-1 Received test message: 966 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,473 | INFO  | consumer-1 Received test message: 967 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,473 | INFO  | consumer-1 Received test message: 968 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,473 | INFO  | consumer-1 Received test message: 969 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,473 | INFO  | consumer-1 Received test message: 970 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,473 | INFO  | consumer-1 Received test message: 971 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,475 | INFO  | consumer-1 Received test message: 972 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,475 | INFO  | consumer-1 Received test message: 973 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,476 | INFO  | consumer-1 Received test message: 974 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,476 | INFO  | consumer-1 Received test message: 975 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,477 | INFO  | consumer-1 Received test message: 976 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,477 | INFO  | consumer-1 Received test message: 977 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,479 | INFO  | consumer-1 Received test message: 978 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,479 | INFO  | consumer-1 Received test message: 979 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,480 | INFO  | consumer-1 Received test message: 980 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,481 | INFO  | consumer-1 Received test message: 981 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,481 | INFO  | consumer-1 Received test message: 982 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,481 | INFO  | consumer-1 Received test message: 983 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,481 | INFO  | consumer-1 Received test message: 984 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,481 | INFO  | consumer-1 Received test message: 985 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,482 | INFO  | consumer-1 Received test message: 986 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,482 | INFO  | consumer-1 Received test message: 987 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,482 | INFO  | consumer-1 Received test message: 988 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,482 | INFO  | consumer-1 Received test message: 989 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,483 | INFO  | consumer-1 Received test message: 990 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,483 | INFO  | consumer-1 Received test message: 991 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,483 | INFO  | consumer-1 Received test message: 992 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,484 | INFO  | consumer-1 Received test message: 993 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,484 | INFO  | consumer-1 Received test message: 994 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,484 | INFO  | consumer-1 Received test message: 995 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,484 | INFO  | consumer-1 Received test message: 996 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,487 | INFO  | consumer-1 Received test message: 997 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,487 | INFO  | consumer-1 Received test message: 998 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,487 | INFO  | consumer-1 Received test message: 999 | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,489 | INFO  | consumer-1 Consumed: 1000 messages | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 18:30:44,489 | INFO  | consumer-1 Consumer thread finished | org.apache.activemq.util.ConsumerThread | consumer-1
+2019-04-27 23:38:49,158 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38291-1556388220026-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-22
+2019-04-27 23:38:49,161 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2019-04-27 23:38:49,167 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2019-04-27 23:38:49,169 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2019-04-27 23:38:49,170 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2019-04-27 23:38:49,178 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-22
+2019-04-27 23:38:49,184 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-22
+2019-04-27 23:38:49,185 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-22
+2019-04-27 23:38:49,185 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-22
+2019-04-27 23:38:49,187 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-22
+2019-04-27 23:38:49,240 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38291-1556388220026-0:1) uptime 5 hours 35 minutes | org.apache.activemq.broker.BrokerService | Thread-22
+2019-04-27 23:38:49,241 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38291-1556388220026-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-22
+2019-04-27 23:38:49,245 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Sat Apr 27 18:03:37 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-22
+2019-04-27 23:38:49,258 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-22
+2019-04-29 18:35:33,716 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Mon Apr 29 18:35:33 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-04-29 18:35:35,629 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-04-29 18:35:35,734 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-04-29 18:35:35,788 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-04-29 18:35:35,945 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38807-1556562935805-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-04-29 18:35:36,063 | INFO  | Listening for connections at: tcp://master:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-29 18:35:36,066 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-04-29 18:35:36,079 | INFO  | Listening for connections at: amqp://master:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-29 18:35:36,080 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-04-29 18:35:36,088 | INFO  | Listening for connections at: stomp://master:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-29 18:35:36,090 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-04-29 18:35:36,098 | INFO  | Listening for connections at: mqtt://master:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-04-29 18:35:36,103 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-04-29 18:35:36,112 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-04-29 18:35:36,217 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-04-29 18:35:36,332 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4e8e8621{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-04-29 18:35:36,399 | INFO  | Listening for connections at ws://master:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-04-29 18:35:36,405 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-04-29 18:35:36,408 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38807-1556562935805-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-04-29 18:35:36,412 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-04-29 18:35:36,412 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb only has 4583 mb of usable space. - resetting to maximum available disk space: 4583 mb | org.apache.activemq.broker.BrokerService | main
+2019-04-29 18:35:36,413 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data only has 4582 mb of usable space. - resetting to maximum available disk space: 4582 mb | org.apache.activemq.broker.BrokerService | main
+2019-04-29 18:35:37,310 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2019-04-29 18:35:37,849 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-04-29 18:35:37,850 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-04-29 18:35:37,927 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2019-04-29 18:35:38,335 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2019-04-29 18:35:38,413 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2019-04-29 19:18:13,626 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp990226843-39
+2019-04-29 19:18:27,543 | WARN  | Transport Connection to: tcp://127.0.0.1:46326 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46326@61616
+2019-04-29 19:30:19,244 | WARN  | Transport Connection to: tcp://127.0.0.1:46330 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46330@61616
+2019-04-29 19:41:45,868 | WARN  | Transport Connection to: tcp://127.0.0.1:46334 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46334@61616
+2019-04-29 19:44:15,068 | WARN  | Transport Connection to: tcp://127.0.0.1:46336 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46336@61616
+2019-04-29 19:44:16,772 | WARN  | Transport Connection to: tcp://127.0.0.1:46338 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46338@61616
+2019-04-29 20:00:37,602 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | org.eclipse.jetty.server.session.HashSessionManager@5e1fc2aaTimer
+2019-04-29 20:31:22,602 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38807-1556562935805-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2019-04-29 20:31:22,608 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2019-04-29 20:31:22,610 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2019-04-29 20:31:22,615 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2019-04-29 20:31:22,617 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2019-04-29 20:31:22,627 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2019-04-29 20:31:22,630 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2019-04-29 20:31:22,630 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2019-04-29 20:31:22,633 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2019-04-29 20:31:22,635 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2019-04-29 20:31:22,675 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38807-1556562935805-0:1) uptime 1 hour 55 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2019-04-29 20:31:22,676 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-38807-1556562935805-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2019-04-29 20:31:22,676 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Mon Apr 29 18:35:33 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-24
+2019-04-29 20:31:22,693 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-24
