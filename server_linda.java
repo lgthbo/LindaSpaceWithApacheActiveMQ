@@ -24,6 +24,12 @@ public class server_linda{
     //顯示 space 內部狀況
     public static void showSpace(){
         System.out.println("Space status :");
+        for(int i=0;i<space.size();i++){
+            System.out.print(space.get(i).getMessage());
+            if(i != space.size()-1){
+                System.out.print(" ");
+            }
+        }
     }
     //用來控制 space內部狀況
     public static void spaceHandler(String input_string)  throws JMSException {
