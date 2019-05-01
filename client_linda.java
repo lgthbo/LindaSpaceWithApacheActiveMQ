@@ -30,7 +30,7 @@ import java.util.*;
 public class client_linda {
     private static final String url = "tcp://localhost:61616";
     private static final String queueName = "SendFromClinet";
-
+    public static boolean lock = false;
     public static void sendToLindaSpace(String msg) throws JMSException {
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
         Connection connection = connectionFactory.createConnection();
@@ -43,9 +43,7 @@ public class client_linda {
         connection.close();
     }
     public static void main(String[] args) throws JMSException {
-        System.out.println("Hello! Welcome to Clinet ya!");
-        System.out.println("What is ur name?");
-
+        System.out.println("Hello! Welcome to Client ya! What is your name?");
         Scanner input_scanner = new Scanner(System.in);
         String clinetName = input_scanner.nextLine();
         //Thread clinetListener = new Clinet_rcv_thread(clinetName);
@@ -59,7 +57,8 @@ public class client_linda {
             public void onMessage(Message message) {
                 TextMessage textMessage = (TextMessage) message;
                 try {
-                    System.out.println("接收消息：" + textMessage.getText());
+                    System.out.println("Receive message from Linda server:\n" + textMessage.getText());
+                    lock = false;
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -67,7 +66,12 @@ public class client_linda {
         });
         while(true){
             String output = input_scanner.nextLine();
-            sendToLindaSpace(clinetName+" "+output);
+            if(lock){
+                System.out.println("This Client is lock, waiting for message from server.");
+            }else{
+                sendToLindaSpace(clinetName+" "+output);
+                lock = true;
+            }
         }
 
     }
