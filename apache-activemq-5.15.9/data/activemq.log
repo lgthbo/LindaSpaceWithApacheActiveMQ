@@ -1211,3 +1211,112 @@
 2019-05-01 14:49:55,286 | WARN  | Transport Connection to: tcp://127.0.0.1:46644 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46644@61616
 2019-05-01 14:50:04,200 | WARN  | Transport Connection to: tcp://127.0.0.1:46638 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46638@61616
 2019-05-01 15:20:54,419 | WARN  | Transport Connection to: tcp://127.0.0.1:46666 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46666@61616
+2019-05-01 15:36:24,554 | WARN  | Transport Connection to: tcp://127.0.0.1:46704 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46704@61616
+2019-05-01 15:36:26,689 | WARN  | Transport Connection to: tcp://127.0.0.1:46668 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46668@61616
+2019-05-01 15:36:28,508 | WARN  | Transport Connection to: tcp://127.0.0.1:46670 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46670@61616
+2019-05-01 15:39:51,943 | WARN  | Transport Connection to: tcp://127.0.0.1:46672 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:46672@61616
+2019-05-01 15:55:31,426 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-43403-1556715911534-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-27
+2019-05-01 15:55:31,428 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2019-05-01 15:55:31,429 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2019-05-01 15:55:31,434 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2019-05-01 15:55:31,435 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2019-05-01 15:55:31,452 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2019-05-01 15:55:31,459 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-27
+2019-05-01 15:55:31,459 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2019-05-01 15:55:31,460 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2019-05-01 15:55:31,463 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2019-05-01 15:55:31,510 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-43403-1556715911534-0:1) uptime 2 hours 50 minutes | org.apache.activemq.broker.BrokerService | Thread-27
+2019-05-01 15:55:31,510 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-43403-1556715911534-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-27
+2019-05-01 15:55:31,511 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Wed May 01 13:05:09 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-27
+2019-05-01 15:55:31,528 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-27
+2019-05-02 10:00:26,783 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Thu May 02 10:00:26 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-05-02 10:00:28,503 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-05-02 10:00:28,603 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-05-02 10:00:28,671 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-05-02 10:00:28,828 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-33299-1556791228688-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-05-02 10:00:28,989 | INFO  | Listening for connections at: tcp://master:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-02 10:00:28,991 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-05-02 10:00:29,003 | INFO  | Listening for connections at: amqp://master:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-02 10:00:29,006 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-05-02 10:00:29,015 | INFO  | Listening for connections at: stomp://master:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-02 10:00:29,016 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-05-02 10:00:29,022 | INFO  | Listening for connections at: mqtt://master:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-02 10:00:29,027 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-05-02 10:00:29,036 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-05-02 10:00:29,118 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-05-02 10:00:29,201 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1bcb79c2{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-05-02 10:00:29,263 | INFO  | Listening for connections at ws://master:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-05-02 10:00:29,268 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-05-02 10:00:29,272 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-33299-1556791228688-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-05-02 10:00:29,272 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-05-02 10:00:29,273 | WARN  | Store limit is 102400 mb (current store usage is 1 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb only has 4380 mb of usable space. - resetting to maximum available disk space: 4380 mb | org.apache.activemq.broker.BrokerService | main
+2019-05-02 10:00:29,280 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data only has 4379 mb of usable space. - resetting to maximum available disk space: 4379 mb | org.apache.activemq.broker.BrokerService | main
+2019-05-02 10:00:30,144 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2019-05-02 10:00:30,647 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-05-02 10:00:30,648 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-05-02 10:00:30,719 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2019-05-02 10:00:31,040 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2019-05-02 10:00:31,199 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2019-05-02 10:02:01,274 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-33299-1556791228688-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-32
+2019-05-02 10:02:01,301 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-02 10:02:01,302 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-02 10:02:01,303 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-02 10:02:01,304 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-02 10:02:01,332 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-02 10:02:01,343 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-32
+2019-05-02 10:02:01,343 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-32
+2019-05-02 10:02:01,345 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-32
+2019-05-02 10:02:01,346 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-32
+2019-05-02 10:02:01,384 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-33299-1556791228688-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | Thread-32
+2019-05-02 10:02:01,384 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-33299-1556791228688-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-32
+2019-05-02 10:02:01,385 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Thu May 02 10:00:26 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-32
+2019-05-02 10:02:01,415 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-32
+2019-05-07 05:46:10,575 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Tue May 07 05:46:10 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-05-07 05:46:12,282 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-05-07 05:46:12,367 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-05-07 05:46:12,433 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-05-07 05:46:12,593 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-42689-1557207972449-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-05-07 05:46:12,799 | INFO  | Listening for connections at: tcp://master:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-07 05:46:12,801 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-05-07 05:46:12,807 | INFO  | Listening for connections at: amqp://master:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-07 05:46:12,815 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-05-07 05:46:12,822 | INFO  | Listening for connections at: stomp://master:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-07 05:46:12,827 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-05-07 05:46:12,833 | INFO  | Listening for connections at: mqtt://master:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-05-07 05:46:12,839 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-05-07 05:46:12,847 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-05-07 05:46:12,903 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-05-07 05:46:13,004 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1bcb79c2{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-05-07 05:46:13,079 | INFO  | Listening for connections at ws://master:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-05-07 05:46:13,081 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-05-07 05:46:13,084 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-42689-1557207972449-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-05-07 05:46:13,085 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-05-07 05:46:13,088 | WARN  | Store limit is 102400 mb (current store usage is 1 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/kahadb only has 4380 mb of usable space. - resetting to maximum available disk space: 4380 mb | org.apache.activemq.broker.BrokerService | main
+2019-05-07 05:46:13,089 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/ubuntu/activeMQHere/apache-activemq-5.15.9/data only has 4378 mb of usable space. - resetting to maximum available disk space: 4378 mb | org.apache.activemq.broker.BrokerService | main
+2019-05-07 05:46:14,004 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2019-05-07 05:46:14,528 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-05-07 05:46:14,529 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-05-07 05:46:14,603 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2019-05-07 05:46:14,892 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2019-05-07 05:46:15,058 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2019-05-07 05:46:57,705 | WARN  | Transport Connection to: tcp://127.0.0.1:47144 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:47144@61616
+2019-05-07 06:01:39,875 | WARN  | Transport Connection to: tcp://127.0.0.1:47148 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:47148@61616
+2019-05-07 06:01:54,748 | WARN  | Transport Connection to: tcp://127.0.0.1:47160 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:47160@61616
+2019-05-07 06:07:43,580 | WARN  | Transport Connection to: tcp://127.0.0.1:47150 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:47150@61616
+2019-05-07 06:07:46,834 | WARN  | Transport Connection to: tcp://127.0.0.1:47166 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:47166@61616
+2019-05-07 06:07:51,918 | WARN  | Transport Connection to: tcp://127.0.0.1:47152 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:47152@61616
+2019-05-07 06:30:07,833 | WARN  | Transport Connection to: tcp://127.0.0.1:47146 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:47146@61616
+2019-05-07 06:30:09,925 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-42689-1557207972449-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-32
+2019-05-07 06:30:09,929 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-07 06:30:09,931 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-07 06:30:09,932 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-07 06:30:09,934 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-07 06:30:09,951 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-32
+2019-05-07 06:30:09,954 | INFO  | PListStore:[/home/ubuntu/activeMQHere/apache-activemq-5.15.9/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-32
+2019-05-07 06:30:09,955 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-32
+2019-05-07 06:30:09,955 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-32
+2019-05-07 06:30:09,956 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-32
+2019-05-07 06:30:10,008 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-42689-1557207972449-0:1) uptime 43 minutes | org.apache.activemq.broker.BrokerService | Thread-32
+2019-05-07 06:30:10,009 | INFO  | Apache ActiveMQ 5.15.9 (localhost, ID:master-42689-1557207972449-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-32
+2019-05-07 06:30:10,015 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@32eff876: startup date [Tue May 07 05:46:10 UTC 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-32
+2019-05-07 06:30:10,031 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-32
