@@ -19,6 +19,8 @@ key : Line 群組
 
 然後先啟動 Linda server 才能用 client 發送 tuple 給 server
 
+目前可使用指令為 in out read
+
 
 # 關於Linda
 Linda 是一個小說系統?用來溝通協調處理程序對共享記憶體的**資料操作**
