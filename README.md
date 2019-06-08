@@ -4,10 +4,18 @@ The Linda System
 ###### tags:`NCTUOS`
 
 # 伺服器
-ec2-52-70-79-11.compute-1.amazonaws.com
+`ec2-52-70-79-11.compute-1.amazonaws.com`
 
-user: ubuntu
+user: `ubuntu`
 
+key : Line 群組
+
+位置 : `/home/ubuntu/activeMQHere`
+
+執行方式 :
+到 `apache-activemq-5.15.9 ` 裡面 先 `./activemq console‵ 來啟動 ActiveMQ
+
+然後先啟動 Linda server 才能用 client 發送 tuple 給 server
 
 
 # 關於Linda
