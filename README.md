@@ -2,6 +2,14 @@ The Linda System
 ===
 
 ###### tags:`NCTUOS`
+
+# 伺服器
+ec2-52-70-79-11.compute-1.amazonaws.com
+ user: ubuntu
+
+
+
+# 關於Linda
 Linda 是一個小說系統?用來溝通協調處理程序對共享記憶體的**資料操作**
 
 [Linda official website](http://lindaspaces.com/products/linda.html)
