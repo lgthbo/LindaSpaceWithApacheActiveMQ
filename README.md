@@ -5,7 +5,8 @@ The Linda System
 
 # 伺服器
 ec2-52-70-79-11.compute-1.amazonaws.com
- user: ubuntu
+
+user: ubuntu
 
 
 
