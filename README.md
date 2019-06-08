@@ -13,7 +13,9 @@ key : Line 群組
 位置 : `/home/ubuntu/activeMQHere`
 
 執行方式 :
-到 `apache-activemq-5.15.9 ` 裡面 先 `./activemq console‵ 來啟動 ActiveMQ
+
+
+到 `apache-activemq-5.15.9 ` 裡面 先 `./activemq console` 來啟動 ActiveMQ
 
 然後先啟動 Linda server 才能用 client 發送 tuple 給 server
 
